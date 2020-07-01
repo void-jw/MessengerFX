@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/background.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="34.0" layoutY="60.0" prefHeight="22.0" prefWidth="257.0" promptText="Search" style="-fx-background-color: #404042; -fx-text-fill: white;">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <TextField id="Input" layoutX="370.0" layoutY="622.0" prefHeight="29.0" prefWidth="325.0" promptText="Type a message..." style="-fx-background-color: #303030; -fx-text-fill: white; -fx-font-size: 15px;" />
+      <Pane id="logout_pane" layoutX="755.0" layoutY="16.0" prefHeight="23.0" prefWidth="26.0" />
+      <TextArea id="Userlist" editable="false" layoutX="36.0" layoutY="135.0" prefHeight="413.0" prefWidth="239.0" style="-fx-control-inner-background: #222222; -fx-text-fill: white; -fx-font-size: 15px;" />
+      <TextArea id="Chatter" layoutX="370.0" layoutY="133.0" prefHeight="420.0" prefWidth="377.0" style="-fx-control-inner-background: #000000; -fx-text-fill: white; -fx-font-size: 15px;" wrapText="true" />
+      <Text fill="WHITE" layoutX="13.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 22px;" text="MessengerFX">
+      </Text>
+      <Text id="name_txt" fill="WHITE" layoutX="367.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 22px;" />
+   </children>
+</AnchorPane>
